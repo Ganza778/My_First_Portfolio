@@ -1,271 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-table, th, td {
-border:1.5px solid rgb(200,200,200);
-border-collapse: collapse;
-}
- </style>
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>hello world</title>
-    <style>/* Importing webfonts */
-      /* (If you're learning CSS, you should disregard that) */
-      
-      @import url(https://fonts.googleapis.com/css?family=Yeseva+One);
-      @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
-      
-      
-      /* CSS reset rules */
-      
-      html, body {
-        height: 100%;
-        min-height: 100%;
-      }
-      html, body, div, span, applet, object, iframe,
-      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-      a, abbr, acronym, address, big, cite, code,
-      del, dfn, img, ins, kbd, q, s, samp,
-      small, strike, sub, sup, tt, var,
-      b, u, i, center,
-      dl, dt, dd,
-      fieldset, form, label, legend,
-      table, caption, tbody, tfoot, thead, tr, th, td,
-      article, aside, canvas, details, embed, 
-      figure, figcaption, footer, header, hgroup, 
-      menu, nav, output, ruby, section, summary,
-      time, mark, audio, video {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 100%;
-        font: inherit;
-        vertical-align: baseline;
-      }
-      /* HTML5 display-role reset for older browsers */
-      article, aside, details, figcaption, figure, 
-      footer, header, hgroup, menu, nav, section {
-        display: block;
-      }
-      body {
-        line-height: 1;
-      }
-      blockquote, q {
-        quotes: none;
-      }
-      blockquote:before, blockquote:after,
-      q:before, q:after {
-        content: '';
-        content: none;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-      
-      
-      /* Fonts and colors */
-      
-      body {
-        font-family: 'Josefin Sans', serif;
-        color: rgba(0, 0, 0, 0.8);
-      }
-      h1, h2, h3, h4, h5, h6, header {
-        font-family: 'Yeseva One', sans-serif;
-      }
-      article {
-      }
-      header {
-        border-bottom: 1px solid rgb(221,221,221);
-        transition: border-bottom-color 1s ease;
-      }
-      header a {
-        color: rgba(0, 0, 0, 0.8);
-      }
-      aside {
-        background: #FAFAFA;
-      }
-      aside p {
-        border: 1px solid #bbb;
-        background: #ddd;
-        color: black;
-      }
-      footer a {
-        color: rgba(0, 0, 0, 0.8);
-      }
-      a {
-        color: #F80002;
-      }
-      
-      
-      /* Positioning and margins */
-      
-      @media (min-width: 1100px) {
-        body {
-          width: 1100px;
-          margin: 0 auto;
-        }
-      }
-      
-      article {
-        padding: 50px 15px;
-      }
-      article > *:first-child {
-        margin-top: 0;
-      }
-      aside {
-        padding: 50px 15px;
-      }
-      header .right {
-        float: right;
-        margin: 0 10px 15px;
-      }
-      
-      
-      /* Header */
-      header {
-        padding: 20px 0;
-        height: 80px;
-      }
-      header ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-      header li {
-        display: inline;
-        vertical-align:middle;
-      }
-      header li:first-child {
-        margin: 0;
-      }
-      header li a {
-        margin: 0 10px;
-      }
-      header li.logo {
-        font-size: 36px;
-      }
-      header a {
-        text-decoration: none;
-      }
-      
-      
-      /* Aside */
-      
-      aside p {
-        border-radius: 10px;
-        padding: 20px 20px;
-      }
-      
-      
-      /* Footer */
-      
-      footer {
-        padding: 5px 15px;
-        height: 80px;
-      }
-      
-      
-      /* Text styles and margins */
-      
-      p {
-        margin-bottom: 15px;
-      }
-      h1 {
-        font-size: 36px;
-        margin: 40px 0 20px;
-      }
-      h2 {
-        font-size: 32px;
-        margin: 30px 0 15px;
-      }
-      h3 {
-        font-size: 28px;
-        margin: 25px 0 10px;
-      }
-      h4 {
-        font-size: 20px;
-        font-weight: bold;
-        margin: 20px 0 10px;
-      }
-      h5 {
-        font-size: 18px;
-        font-weight: bold;
-        margin: 15px 0 10px;
-      }
-      h6 {
-        font-weight: bold;
-        margin: 5px 0;
-      }
-      
-      @media (max-width: 800px) {
-        body.works_on_smartphone {
-          display: block;
-        }
-        body.works_on_smartphone main {
-          display: block;
-        }
-        header .right {
-          float: none;
-        }
-      }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="base.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-  </head>
-  <body>
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid rgb(212, 209, 209);
+            border-collapse: collapse;
+        }
+    </style>
+</head>
 
+<body>
     <header>
-      <ul>
-        <li><a href="tweets.html" target="_blank">tweets.html</a></li>
-      </ul>
+        <ul>
+            <li><a href="tweets.html">tweets</a></li>
+        </ul>
     </header>
     <main>
-      <artical> 
-        <h1>hello world</h1>
-        <h2>kigali city</h2>
-        <h3>rubavu</h3>
-        <p>kigali is the capita city of rwanda</p>
-        <p>tomorrow is thursday</p>
-        <p>kigali is the capita city of rwanda</p>
-        <p>kigali is the capita city of rwanda</p>
-        <a href="https://www.w3schools.com/" target="_blank"><img src="../desktop/NGA/nga.JPG" alt="a car"></a>
-    <table style="width:20%">
-      <tr>
-        <th>Name</th>
-        <th>Age</th>
-        <th>country</th>
-      </tr>
-      <tr>
-        <td>John</td>
-        <td>25</td> 
-        <td>USA</td>
-      </tr>
-       <tr>
-        <td>Emily</td>
-        <td>28</td> 
-        <td>Canada</td>
-      </tr>
-       <tr>
-        <td>Michael</td>
-        <td>32</td> 
-        <td>Australia</td>
-      </tr>
-       <tr>
-        <td>Sophia</td>
-        <td>21</td> 
-        <td>UK</td>
-      </tr>
-    </table>
-      </article>
-      <aside>
-      <p>“placeholder to add comment
- thread later</p>
-      </aside>
-    </main>
-    <footer>
-      <p>NIYO GANZA Aristide</p>
-      <p><a href="nga.html" target="_parent">nga.html</a></p>
-    </footer>  
-  </body>
-</html>
+        <article>
 
+            <h1>hello world</h1>
+            <h2>my name</h2>
+            <h3>document</h3>
+            <p>h</p>
+            <p>a</p>
+            <p>p</p>
+            <p>s</p>
+            <a href="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png">
+                <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="logo">logo</a>
+            <table>
+                <thead>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </thead>
+                <tbody>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>USA</td>
+                </tbody>
+                <tbody>
+                    <td>Emily</td>
+                    <td>28</td>
+                    <td>canada</d>
+                </tbody>
+                <tbody>
+                    <td>Michael</td>
+                    <td>32</td>
+                    <td>Australia</td>
+                </tbody>
+                <tbody>
+                    <td>Sophia</td>
+                    <td>21</td>
+                    <td>UK</td>
+                </tbody>
+            </table>
+        </article>
+        <aside>placeholder to add comment thread later</aside>
+    </main>
+    <footer>Made by Aristide - <a href="ANY LINK" target="_blank">here</a></footer>
+</body>
+
+</html>
